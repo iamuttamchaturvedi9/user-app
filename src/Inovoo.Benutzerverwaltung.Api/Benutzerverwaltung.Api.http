@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:8080
+
+### Search users
+GET {{baseUrl}}/api/benutzer?suche=berge
+
+### Get a user by ID
+GET {{baseUrl}}/api/benutzer/11111111-1111-1111-1111-111111111111
+
+### Get a user that does not exist
+GET {{baseUrl}}/api/benutzer/33333333-3333-3333-3333-333333333333

@@ -1,0 +1,13 @@
+# Start: "docker compose up --build"  ->  API unter http://localhost:8080
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/Inovoo.Benutzerverwaltung.Api/Dockerfile
+    environment:
+      ConnectionStrings__Default: "Data Source=/data/benutzer.db"
+    volumes: ["benutzer-data:/data"]   # SQLite-Datei bleibt beim Neustart erhalten
+    ports: ["8080:8080"]
+
+volumes:
+  benutzer-data:

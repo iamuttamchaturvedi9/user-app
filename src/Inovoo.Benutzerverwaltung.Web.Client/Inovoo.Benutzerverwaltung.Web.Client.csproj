@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.*" />
+    <PackageReference Include="MudBlazor" Version="8.*" />
+    <ProjectReference Include="..\Inovoo.Benutzerverwaltung.Contracts\Inovoo.Benutzerverwaltung.Contracts.csproj" />
+  </ItemGroup>
+</Project>

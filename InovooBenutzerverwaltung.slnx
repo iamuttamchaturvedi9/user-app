@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Inovoo.Benutzerverwaltung.Contracts/Inovoo.Benutzerverwaltung.Contracts.csproj" />
+  <Project Path="src/Inovoo.Benutzerverwaltung.Api/Inovoo.Benutzerverwaltung.Api.csproj" />
+  <Project Path="src/Inovoo.Benutzerverwaltung.Web/Inovoo.Benutzerverwaltung.Web.csproj" />
+  <Project Path="src/Inovoo.Benutzerverwaltung.Web.Client/Inovoo.Benutzerverwaltung.Web.Client.csproj" />
+</Solution>

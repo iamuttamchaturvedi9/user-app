@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.*" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.*" />
+    <ProjectReference Include="..\Inovoo.Benutzerverwaltung.Contracts\Inovoo.Benutzerverwaltung.Contracts.csproj" />
+  </ItemGroup>
+</Project>
