@@ -18,6 +18,7 @@ public static class DatabaseInitializer
             IBAN TEXT NOT NULL, BIC TEXT, Bank TEXT);
         CREATE INDEX IF NOT EXISTS IX_Benutzer_Nachname ON Benutzer(Nachname, Vorname);
         CREATE INDEX IF NOT EXISTS IX_Bankverbindung_BenutzerId ON Bankverbindung(BenutzerId);
+        CREATE UNIQUE INDEX IF NOT EXISTS IX_Benutzer_Personalnummer ON Benutzer(Personalnummer);
         """;
 
     // Frei erfundene Beispieldaten.
